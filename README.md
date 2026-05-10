@@ -1,5 +1,3 @@
-Here is your **updated README converted from SQL Server → PostgreSQL (pgAdmin)** with clean wording and consistent terminology:
-
 ---
 
 # Data Warehouse and Analytics Project
@@ -14,7 +12,7 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 The data architecture for this project follows the **Medallion Architecture** with **Bronze**, **Silver**, and **Gold** layers:
 
 1. **Bronze Layer**: Stores raw data as-is from source systems.
-   Data is ingested from CSV files into a **PostgreSQL database using pgAdmin and COPY commands**.
+   Data is ingested from CSV files into a **PostgreSQL database using pgAdmin**.
 
 2. **Silver Layer**: Includes data cleansing, standardization, and normalization processes to prepare data for analysis.
 
